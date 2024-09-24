@@ -35,11 +35,13 @@ int main() {
 
     loadStudentData(students);  
 
+    
+
 #ifdef _DEBUG
     
     std::cout << "Student List:" << std::endl;
     for (const auto& student : students) {
-        std::cout << "First Name: " << student.firstName << ", Last Name: " << student.lastName << std::endl;
+        std::cout << "" << student.firstName << "," << student.lastName << std::endl;
     }
 #endif
 
